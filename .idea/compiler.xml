@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="weixin-tuisong" />
+        <module name="wechat-goodmoring" />
         <module name="weixin.tuisong" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wechat-goodmoring" options="-parameters" />
       <module name="weixin-tuisong" options="-parameters" />
       <module name="weixin.tuisong" options="-parameters" />
     </option>
